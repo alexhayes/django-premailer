@@ -1,0 +1,20 @@
+{% load premailer %}{% premailer %}<html>
+<style type="text/css">
+h1 { border:1px solid black }
+p { color:red;}
+.c {
+  background-color: #FF6600;
+}
+.c td {
+  background-color: #CCCCCC;
+}
+</style>
+<h1 style="font-weight:bolder">{{ eggs }}</h1>
+<p><a href="/blah/">Hej</a></p>
+<table class="c">
+  <tr>
+    <td></td>
+  </tr>
+</table>
+</html>
+{% endpremailer %}

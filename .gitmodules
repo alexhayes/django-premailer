@@ -1,0 +1,3 @@
+[submodule "scripts/git-tools"]
+	path = scripts/git-tools
+	url = https://github.com/alexhayes/git-tools.git
