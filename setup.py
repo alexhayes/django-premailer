@@ -3,10 +3,7 @@ import os
 
 from setuptools import setup, find_packages
 
-ROOT = os.path.abspath(os.path.dirname(__file__))
-
-with open(os.path.join(ROOT, 'VERSION')) as f:
-    VERSION = f.read().strip()
+VERSION = '0.1.0'
 
 setup(
     name='django-premailer',
