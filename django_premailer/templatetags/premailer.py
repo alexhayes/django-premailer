@@ -1,6 +1,5 @@
 from __future__ import absolute_import
 from django import template
-from django.utils.encoding import smart_unicode
 from django.contrib.staticfiles import finders
 from django.contrib.staticfiles.storage import staticfiles_storage
 from django.conf import settings
@@ -18,10 +17,10 @@ class PremailerNode(template.Node):
     def render(self, context):
         rendered_contents = self.nodelist.render(context)
         kwargs = PREMAILER_OPTIONS.copy()
-        
+
         for expression in self.filter_expressions:
             kwargs.update(base_url=expression.resolve(context, True))
-        
+
         transformed = Premailer(rendered_contents, **kwargs).transform()
         return transformed
 
