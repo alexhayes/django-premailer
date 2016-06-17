@@ -57,3 +57,7 @@ target/
 .project
 .pydevproject
 .settings
+
+# direnv
+.direnv
+.envrc
