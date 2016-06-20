@@ -31,6 +31,14 @@ matrix:
       env: TOXENV=pypy-django18
     - python: pypy
       env: TOXENV=pypy-django19
+    - python: pypy3
+      env: TOXENV=pypy3-django16
+    - python: pypy3
+      env: TOXENV=pypy3-django17
+    - python: pypy3
+      env: TOXENV=pypy3-django18
+    - python: pypy3
+      env: TOXENV=pypy3-django19
 install:
   - pip install tox
   - pip install codecov
