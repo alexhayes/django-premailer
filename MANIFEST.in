@@ -5,6 +5,7 @@ include README.rst
 include MANIFEST.in
 include setup.py
 
+recursive-include django_premailer/tests/templates *.html
 recursive-include docs *
 recursive-include requirements *.txt *.rst
 
