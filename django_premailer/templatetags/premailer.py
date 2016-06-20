@@ -1,8 +1,6 @@
 from __future__ import absolute_import
+
 from django import template
-from django.utils.encoding import smart_unicode
-from django.contrib.staticfiles import finders
-from django.contrib.staticfiles.storage import staticfiles_storage
 from django.conf import settings
 from premailer import Premailer
 

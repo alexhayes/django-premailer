@@ -1,0 +1,4 @@
+-r default.txt
+-r pkgutils.txt
+-r test.txt
+-r docs.txt

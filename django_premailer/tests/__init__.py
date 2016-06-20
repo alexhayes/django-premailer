@@ -1,1 +1,1 @@
-from .templatetags import *
+from ..templatetags import *
