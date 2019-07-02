@@ -1,1 +1,2 @@
+-r default.txt
 coverage

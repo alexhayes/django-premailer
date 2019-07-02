@@ -8,12 +8,12 @@ Django template tag that turns CSS blocks into style attributes using premailer_
     :target: https://travis-ci.org/alexhayes/django-premailer
     :alt: Build Status
 
-.. image:: https://landscape.io/github/alexhayes/django-premailer/master/landscape.png
+.. image:: https://landscape.io/github/alexhayes/django-premailer/master/landscape.svg?style=flat
     :target: https://landscape.io/github/alexhayes/django-premailer/
     :alt: Code Health
 
-.. image:: https://codecov.io/github/alexhayes/django-premailer/coverage.svg?branch=master
-    :target: https://codecov.io/github/alexhayes/django-premailer?branch=master
+.. image:: https://codecov.io/gh/alexhayes/django-premailer/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/alexhayes/django-premailer
     :alt: Code Coverage
 
 .. image:: https://readthedocs.org/projects/django-premailer/badge/
