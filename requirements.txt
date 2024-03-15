@@ -1,1 +1,1 @@
-premailer==3.0.0
+premailer
